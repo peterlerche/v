@@ -4095,7 +4095,7 @@ everything inside your current folder (and subfolders). You can pass the `-stats
 option to see more details about the individual tests run.
 
 You can put additional test data, including .v source files in a folder, named
-`testdata`, right next to your _test.v files. V's test framework will *ignore*
+`testdata`, right next to your *_test.v files. V's test framework will *ignore*
 such folders, while scanning for tests to run. This is useful, if you want to
 put .v files with invalid V source code, or other tests, including known
 failing ones, that should be run in a specific way/options by a parent _test.v
