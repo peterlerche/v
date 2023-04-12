@@ -4407,7 +4407,7 @@ fn main() {
 // hello_test.v
 module main
 
-fn test_hello() {
+fn hello_test() {
 	assert hello() == 'Hello world'
 }
 ```
